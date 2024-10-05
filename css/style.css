@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:
+    "Montserrat", sans-serif;
+}
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.header__img{   
+    background: #E1FF8F;
+    background-image: url(/img/StarLogo.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+header{
+    background-image: 
+    url(/img/Star\ 2.svg),
+    url(/img/Star\ 3.svg),
+    url(/img/Star\ 4.svg),
+    url(/img/Star\ 5.svg);
+    background-repeat: no-repeat;
+    background-position: 
+    17% 16%,
+    23% 6%,
+    82% 88%,
+    75% 79%;
+}  
+.header__title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    padding-top: 196px;
+}
+.header__paragraph{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.header__index{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    border: 1px solid #202027;
+    border-radius: 60px;
+    background: #202027;
+    padding: 16px 65px;
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 156px;
+}
+.header__index:hover{
+    background: #ffffff;
+    color: #202027;
+}
+.games{
+    display: flex;
+    background: #BCEC30;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 27px;
+    padding-bottom: 30px;
+}
+.game__one {
+    display: flex;
+}
+.game__two {
+    display: flex;
+}
+.game__three {
+    display: flex;
+}
+.game__four {
+    display: flex;
+}
+.game__five {
+    display: flex;
+}
+.game__six {
+    display: flex;
+}
+.games h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 33px;
+    color: #202027;
+}
+.games img{
+    margin-left: 51px;
+    margin-right: 51px;
+}
+/* Об играх */
+.about__games{
+    background: #202027;
+    padding-top: 94px;
+    padding-bottom: 96px;
+}
+.about__games-link1{
+    display: flex;
+}
+.about__games-link2{
+    display: flex;
+    align-items: flex-end;
+}
+.game__cart-1{
+    border-radius: 30px;
+    background: #ffffff;
+}
+.game__cart-center{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.game__cart-1 img{
+    border-radius: 30px;
+}
+.game__button{
+    display: inline-block;
+    font-size: 16px;
+    color: #202027;
+    font-weight: 500;
+    line-height: 18px;
+    font-family: "Montserrat", sans-serif;;
+    border-radius: 53px;
+    border: none;
+    padding: 8px 16px 10px 8px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+.game__cart-1 h2{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39*px;
+    margin-left: 32px;
+    margin-bottom: 36px;
+    color: #202027;
+}
+.game__cart-1:hover{
+    transform: scale(1.1);
+}
