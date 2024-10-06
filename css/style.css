@@ -98,8 +98,32 @@ header{
 /* Об играх */
 .about__games{
     background: #202027;
+    background-image: url(/img/Star\ 1about.svg),
+                    url(/img/Star\ 11\ about.svg),
+                    url(/img/Star\ 12\ about.svg);
+    background-repeat: no-repeat;
+    background-position: 
+                    right 10%,
+                    13% 52%,
+                    14% 55%;
+}
+.about__games-font{
     padding-top: 94px;
     padding-bottom: 96px;
+}
+.games__titel-about{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+.games__titel-paragraf{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #ffffff;
+    margin-bottom: 72px;
 }
 .about__games-link1{
     display: flex;
@@ -145,4 +169,112 @@ header{
 }
 .game__cart-1:hover{
     transform: scale(1.1);
+}
+.mini__games{
+    background: #202027;
+    padding-bottom: 144px;
+    background-image: url(/img/Star\ 6\ mini.svg),
+                        url(/img/Star\ 7\ mini.svg),
+                        url(/img/Star\ 8\ mini.svg),
+                        url(/img/Star\ 10\ mini.svg);
+    background-repeat: no-repeat;
+    background-position: 
+            84% 3%,
+            80% 2%,
+            84% 97%,
+            80% 98%;
+}
+.mini__games-titel{
+    font-size: 64px;
+    line-height: 78px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 72px;
+}
+.cart__game-even{
+    display: flex;
+    justify-content: space-between;
+   background: #ffffff;
+   border-radius: 30px;
+   margin-bottom: 32px;
+}
+.game__cart-info{
+    background: #ffffff;
+    padding-left: 43px;
+    border-radius: 30px 0 0 30px;
+}
+.game__cart-info h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #202027;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.game__cart-info p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202027;
+    margin-bottom: 36px;
+}
+.header__index-game{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    border: 1px solid #202027;
+    border-radius: 60px;
+    background: #202027;
+    padding: 16px 75px;
+    color: #ffffff;
+    display: inline-block;
+}
+.header__index-game:hover{
+    background: #ffffff;
+    color: #202027;
+}
+.game__cart-img img{
+    border-radius: 0 30px 30px 0;
+}
+.cart__game-odd{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    background: #ffffff;
+    border-radius: 30px;
+    margin-bottom: 32px;
+}
+.game__cart-odd{
+    padding-left: 48px;
+}
+.game__cart-odd h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #202027;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.game__cart-odd p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202027;
+    margin-bottom: 36px;
+}
+.game__odd-img img{
+    border-radius: 30px 0 0 30px;
+}
+footer{
+    background: #bded35;
+}
+.footer p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
