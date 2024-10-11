@@ -1,18 +1,22 @@
 // Задание 1
+
 let a = 10;
 alert(a); // выводит 10
 a = 20;
 alert(a); // выводит 20
 
 // Задание 2
+
 let iphoneYear = 2007;
 alert(iphoneYear); // выводит 2007
 
 // Задание 3
+
 let jsName = " Brendan Eich";
 alert(jsName); // выводит "Брендан Айк"
 
 // Задание 4
+
 let c = 10;
 let d = 2;
 
@@ -46,7 +50,7 @@ alert(num);
 
 // Задание 8
 let age = prompt("Сколько вам лет?");
-alert(age);
+alert(`Вам - ${age} года`);
 
 // Задание 9
 
