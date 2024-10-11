@@ -18,10 +18,10 @@ body{
 }
 header{
     background-image: 
-    url(/img/Star\ 2.svg),
-    url(/img/Star\ 3.svg),
-    url(/img/Star\ 4.svg),
-    url(/img/Star\ 5.svg);
+    url(/img/Star2.svg),
+    url(/img/Star3.svg),
+    url(/img/Star4.svg),
+    url(/img/Star5.svg);
     background-repeat: no-repeat;
     background-position: 
     17% 16%,
@@ -34,6 +34,7 @@ header{
     font-size: 64px;
     line-height: 78px;
     padding-top: 196px;
+    width: 64%;
 }
 .header__paragraph{
     font-weight: 400;
@@ -41,6 +42,7 @@ header{
     line-height: 32px;
     padding-top: 24px;
     padding-bottom: 48px;
+    width: 60%;
 }
 .header__index{
     text-decoration: none;
@@ -98,8 +100,33 @@ header{
 /* Об играх */
 .about__games{
     background: #202027;
+    background-image: url(/img/Star1about.svg),
+                    url(/img/Star11about.svg),
+                    url(/img/Star12about.svg);
+    background-repeat: no-repeat;
+    background-position: 
+                    right 10%,
+                    13% 52%,
+                    14% 55%;
+}
+.about__games-font{
     padding-top: 94px;
     padding-bottom: 96px;
+}
+.games__titel-about{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+.games__titel-paragraf{
+    width: 60%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #ffffff;
+    margin-bottom: 72px;
 }
 .about__games-link1{
     display: flex;
@@ -138,11 +165,102 @@ header{
     text-decoration: none;
     font-size: 32px;
     font-weight: 700;
-    line-height: 39*px;
+    line-height: 39px;
     margin-left: 32px;
     margin-bottom: 36px;
     color: #202027;
+    width: 80%;
 }
 .game__cart-1:hover{
     transform: scale(1.1);
+}
+.mini__games{
+    background: #202027;
+    padding-bottom: 144px;
+    background-image: url(/img/Star6mini.svg),
+                        url(/img/Star7mini.svg),
+                        url(/img/Star8mini.svg),
+                        url(/img/Star10mini.svg);
+    background-repeat: no-repeat;
+    background-position: 
+            84% 3%,
+            80% 2%,
+            84% 97%,
+            80% 98%;
+}
+.mini__games-titel{
+    font-size: 64px;
+    line-height: 78px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 72px;
+}
+.mini__cart-even{
+    display: flex;
+    justify-content: space-between;
+   background: #ffffff;
+   border-radius: 30px;
+   margin-bottom: 32px;
+}
+.mini__cart-info{
+    background: #ffffff;
+    padding-left: 43px;
+    border-radius: 30px 0 0 30px;
+}
+.mini__cart-info h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #202027;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.mini__cart-info p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202027;
+    margin-bottom: 36px;
+}
+.mini__index-game{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    border: 1px solid #202027;
+    border-radius: 60px;
+    background: #202027;
+    padding: 16px 75px;
+    color: #ffffff;
+    display: inline-block;
+}
+.header__index-game:hover{
+    background: #ffffff;
+    color: #202027;
+}
+.mini__event-img img{
+    border-radius: 0 30px 30px 0;
+}
+.mini__cart-odd{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    background: #ffffff;
+    border-radius: 30px;
+    margin-bottom: 32px;
+}
+.mini__odd-img img{
+    border-radius: 30px 0 0 30px;
+}
+footer{
+    background: #bded35;
+}
+.footer p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
