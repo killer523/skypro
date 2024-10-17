@@ -148,7 +148,7 @@ span {
     border-radius: 30px;
     background: #ffffff;
 }
-.game__cart__center{
+.game__cart_center{
     margin-left: 32px;
     margin-right: 32px;
 }
@@ -178,7 +178,7 @@ span {
     margin-left: 32px;
     margin-bottom: 36px;
     color: #202027;
-    width: 80%;
+    width: 70%;
 }
 .game__cart:hover{
     transform: scale(1.07);
@@ -204,7 +204,7 @@ span {
     color: #ffffff;
     margin-bottom: 72px;
 }
-.mini__cart-even{
+.mini__cart_even{
     display: flex;
     justify-content: space-between;
    background: #ffffff;
@@ -231,7 +231,7 @@ span {
     color: #202027;
     margin-bottom: 36px;
 }
-.mini__index-game{
+.mini__button{
     text-decoration: none;
     font-size: 24px;
     font-weight: 600;
@@ -251,7 +251,7 @@ span {
 .mini__event-img img{
     border-radius: 0 30px 30px 0;
 }
-.mini__cart-odd{
+.mini__cart_odd{
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
