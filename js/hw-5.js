@@ -62,9 +62,9 @@ function correctingNum(a,b) {
     let aNum = Number(a);
     let bNum = Number(b);
     if (isNaN(aNum) || isNaN(bNum)) {
-        console.log('Вы ввели не числа. Пожалуйста, попробуйте снова.');
+        return console.log('Вы ввели не числа. Пожалуйста, попробуйте снова.');
     } else {
-        console.log(aNum * bNum);
+        return console.log(aNum * bNum);
     }
 }
 
@@ -77,7 +77,7 @@ function enterNum() {
     let n = Number(clientNum);
 
     if (isNaN(n)) {
-        alert('Переданный параметр не является числом'); 
+        return alert('Переданный параметр не является числом');
     } else {
        return console.log(`${n} в кубе равняется ${n*n}`);
     }
