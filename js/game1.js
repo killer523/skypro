@@ -1,16 +1,17 @@
 
+
 function guessTheNumber() {
     const randomNumber = Math.floor(Math.random() * 100) + 1; 
     let guess = 0;
 
     while (guess !== randomNumber) {
-    //   guess = parseInt(prompt("Введите ваше число: "), 10); // Запрашиваем у пользователя ввод
         let user = prompt("Введите ваше число");
         if (user === null) {
             alert("Вы вышли из игры.");
             return; 
         }
-        if (isNaN(guess)) {
+        guess = parseInt(user);
+        if (isNaN(guess) || guess < 1 || guess > 100) {
             alert("Пожалуйста, введите корректное число.");
             continue;
         }
