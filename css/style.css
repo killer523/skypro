@@ -178,7 +178,7 @@ span {
     margin-left: 32px;
     margin-bottom: 36px;
     color: #202027;
-    width: 70%;
+    width: 80%;
 }
 .game__cart:hover{
     transform: scale(1.07);
@@ -365,11 +365,11 @@ footer{
         background: #202027;
         padding-bottom: 24px;
     }
-    .mini__cart-even{
+    .mini__cart_even{
        flex-direction: column-reverse;
        margin-bottom: 24px;
     }
-    .mini__cart-odd{
+    .mini__cart_odd{
         flex-direction: column-reverse;
         margin-bottom: 24px;
     }   
@@ -399,7 +399,7 @@ footer{
         color: #000000;
         margin-bottom: 32px;
     }
-    .mini__index-game{
+    .mini__button{
         margin-bottom: 32px;
         width: 50%;
     }
