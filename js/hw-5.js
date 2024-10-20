@@ -62,13 +62,14 @@ function correctingNum(a,b) {
     let aNum = Number(a);
     let bNum = Number(b);
     if (isNaN(aNum) || isNaN(bNum)) {
-        return 'Вы ввели не числа. Пожалуйста, попробуйте снова.';
+        return null;
     } else {
         return aNum * bNum;
     }
 }
-
-correctingNum(2, '87');
+45
+let num = correctingNum(8, '87');
+console.log(num);
 
 // Задание 6
 
@@ -77,13 +78,14 @@ function enterNum() {
     let n = Number(clientNum);
 
     if (isNaN(n)) {
-        return 'Переданный параметр не является числом';
+        return null;
     } else {
        return `${n} в кубе равняется ${n*n}`;
     }
 }
 
-enterNum();
+let kub = enterNum();
+console.log(kub);
 
 // Задание 7
 
