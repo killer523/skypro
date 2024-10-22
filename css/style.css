@@ -136,22 +136,23 @@ span {
     color: #ffffff;
     margin-bottom: 72px;
 }
-.about__games-link1{
+.about__games-row1{
     display: flex;
+    margin-bottom: -7px;
 }
-.about__games-link2{
+.about__games-row2{
     display: flex;
     align-items: flex-end;
 }
-.game__cart-1{
+.game__cart{
     border-radius: 30px;
     background: #ffffff;
 }
-.game__cart-center{
+.game__cart_center{
     margin-left: 32px;
     margin-right: 32px;
 }
-.game__cart-1 img{
+.game__cart img{
     border-radius: 30px;
 }
 .game__button{
@@ -163,12 +164,12 @@ span {
     font-family: "Montserrat", sans-serif;;
     border-radius: 53px;
     border: none;
-    padding: 8px 16px 10px 8px;
+    padding: 8px 16px 10px 16px;
     margin-top: 32px;
     margin-left: 32px;
     margin-bottom: 16px;
 }
-.game__cart-1 h2{
+.game__cart h2{
     display: inline-block;
     text-decoration: none;
     font-size: 32px;
@@ -177,10 +178,10 @@ span {
     margin-left: 32px;
     margin-bottom: 36px;
     color: #202027;
-    width: 80%;
+    width: 75%;
 }
-.game__cart-1:hover{
-    transform: scale(1.1);
+.game__cart:hover{
+    transform: scale(1.07);
 }
 .mini__games{
     background: #202027;
@@ -203,7 +204,7 @@ span {
     color: #ffffff;
     margin-bottom: 72px;
 }
-.mini__cart-even{
+.mini__cart_even{
     display: flex;
     justify-content: space-between;
    background: #ffffff;
@@ -230,7 +231,7 @@ span {
     color: #202027;
     margin-bottom: 36px;
 }
-.mini__index-game{
+.mini__button{
     text-decoration: none;
     font-size: 24px;
     font-weight: 600;
@@ -250,7 +251,7 @@ span {
 .mini__event-img img{
     border-radius: 0 30px 30px 0;
 }
-.mini__cart-odd{
+.mini__cart_odd{
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
@@ -364,11 +365,11 @@ footer{
         background: #202027;
         padding-bottom: 24px;
     }
-    .mini__cart-even{
+    .mini__cart_even{
        flex-direction: column-reverse;
        margin-bottom: 24px;
     }
-    .mini__cart-odd{
+    .mini__cart_odd{
         flex-direction: column-reverse;
         margin-bottom: 24px;
     }   
@@ -398,7 +399,7 @@ footer{
         color: #000000;
         margin-bottom: 32px;
     }
-    .mini__index-game{
+    .mini__button{
         margin-bottom: 32px;
         width: 50%;
     }
@@ -412,3 +413,4 @@ footer{
         padding-bottom: 40px;
     }
 }
+

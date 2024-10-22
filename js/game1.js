@@ -21,9 +21,10 @@ function guessTheNumber() {
             alert("Слишком большое число! Попробуйте снова.");
         } else {
             alert(`Поздравляю! Вы угадали число ${randomNumber}!`);
+            
         }
     }
 }
-const a = document.getElementById('myButton');
+const a = document.getElementById('guessNumber');
 a.addEventListener('click', guessTheNumber);
 
