@@ -1,4 +1,4 @@
-function playGame() {
+function arithmeticSimple() {
    
     let num1 = Math.floor(Math.random() * 20) + 1; 
     let num2 = Math.floor(Math.random() * 20) + 1; 
@@ -43,4 +43,4 @@ function playGame() {
     }
 }
 const b = document.getElementById('simpleArithmetic');
-b.addEventListener('click', playGame);
+b.addEventListener('click', arithmeticSimple);

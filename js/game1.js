@@ -27,4 +27,3 @@ function guessTheNumber() {
 }
 const a = document.getElementById('guessNumber');
 a.addEventListener('click', guessTheNumber);
-
